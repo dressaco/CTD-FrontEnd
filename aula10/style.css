@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+.inline-block {
+    display: inline-block;
+    padding: 50px;
+    background-color: blue;
+    color: yellow;
+    margin: 0px 0px 0 0;
+    width: 43%;
+    border: 2px solid red;
+}
+
+/*o elemento inline-block só vai ficar na mesma linha de outro elemento se ele couber inteiro.*/
+
+.inline{
+    display: inline;
+    width: 49%;
+}
+
+/*o elemento inline fica na mesma linha de outro mesmo que seja maior, complementando para a linha seguinte.*/

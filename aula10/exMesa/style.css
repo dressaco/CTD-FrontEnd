@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://www.murphysmultiverse.com/wp-content/uploads/2020/12/Spider-Man-3-copy-1.jpg);
+    background-size:cover;
+    align-content: center;
+    height: 1200px;
+    width: auto;
+}
+
+#banner {
+    color: white;
+    text-align: center;
+    padding: 500px 0;
+    color: white;
+    font-family: "Lobster",cursive;
+    font-size: xx-large;
+}
+
+#banner button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #a80606;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: x-large;
+}
+
+#banner h1, #banner h2 {
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    position: fixed;
+    right: 15px;
+    bottom: 0px;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Estrutura semântica</title>
+</head>
+<body>
+
+    <!-- 
+        Estrutura de conteúdo 
+        Link Documentação:
+            https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/div
+            https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/nav
+            https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/aside
+            https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/article
+            https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/section
+            https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/header
+            https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/footer
+            https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/main
+    -->
+
+    <!-- Container genérico -->
+    <div>
+        <h1>Titulo</h1>
+        <h2>Subtitulo</h2>
+        <p>Bill Gates a direita de terno grafite e gravata cinza, com sua ex-esposa Melinda Gates de vestido florido branco discursando ambos com um microfone na mão.
+            Bill Gates com sua ex-esposa Melinda Gates discursam na formatura em Harvard.</p>
+    </div>
+    <!-- Container de navegação -->
+    <nav></nav>
+    <!-- Conteúdo independente -->
+    <article></article>
+    <!-- Conteúdo relacionado a um conteúdo independente -->
+    <aside>
+        <h1>Título da sessão</h1>
+        <article>
+          <h2>Titulo</h2>
+          <p>Descriçâo</p>  
+        </article>
+        <article>
+            <h2>Titulo</h2>
+            <p>Descriçâo</p>  
+        </article>
+        <article>
+            <h2>Titulo</h2>
+            <p>Descriçâo</p>  
+        </article>
+    </aside>
+    <!-- Conteúdo relacionado a uma sessão genérica -->
+    <!-- Obs.: Como tem o propósito identificar a sessão possui título h1-h2 -->
+    <section>
+        <h1>Produtos</h1>
+        <p>Descrição da sessão.</p>
+        <div>
+            <h2>Titulo</h2>
+            <p>Descriçâo</p>  
+        </div>
+        <div>
+            <h2>Titulo</h2>
+            <p>Descriçâo</p>  
+        </div>
+    </section>
+    <!-- Conteúdo relacionado ao conteúdo principal dentro do documento. -->
+    <!-- Entende-se como conteúdo principal aquele relacionado diretamente com o tópico central da página ou com a funcionalidade central da aplicação. -->
+    <main>
+        <h1>Maçãs</h1>
+        <p>A maçã é a fruta pomácea da macieira.</p>
+
+        <article>
+            <h2>Vermelho delicioso</h2>
+            <p>Estas maçãs vermelhas brilhantes são as mais comumente encontradas em muitos supermercados.</p>
+            <p>... </p>
+            <p>... </p>
+        </article>
+
+        <article>
+            <h2>Granny Smith</h2>
+            <p>Essas suculentas maçãs verdes, são um ótimo recheio para torta de maçã.</p>
+            <p>... </p>
+            <p>... </p>
+        </article>
+    </main>
+    <!-- Conteúdo relacionado a um cabeçalho introdutório de informação -->
+    <header>
+        <h1>Título da página</h1>
+        <h2>Sumário do título</h2>
+    </header>
+    <!-- Conteúdo relacionado a um rodapé de um conteúdo -->
+    <!-- Normalmente um rodapé contém informações sobre o autor da seção de dados, direitos autorais ou links para documentos relacionados. -->
+    <article>
+        <h1>Título</h1>
+        <h2>Subtítulo</h2>
+        <p>...</p>
+        <footer>
+            Algumas informações de copyright ou talvez alguma informação do autor de um 'article'?
+        </footer>
+    </article>
+    <!-- 
+        Imagens
+        Link Documentação: 
+            https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/img
+            https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/figure
+    -->
+    <img 
+        src="https://portalrapmais.com/wp-content/uploads/2019/08/steve-jobs.jpeg" 
+        width="200" 
+        height="130">
+
+    <hr>
+
+    <!-- Descrição da imagem -->
+    <img src="imagens/img2.jpg" alt="Bill Gates a direita de terno grafite e gravata cinza, com sua ex-esposa Melinda Gates de vestido florido branco discursando ambos com um microfone na mão.">
+
+    <!-- Descrição da imagem e Legenda -->
+    <figure>
+         <img src="../img3.jpg" alt="Bill Gates a direita de terno grafite e gravata cinza, com sua ex-esposa Melinda Gates de vestido florido branco discursando ambos com um microfone na mão.">
+        <!-- Legenda da imagem. -->
+        <figcaption>Bill Gates com sua ex-esposa Melinda Gates discursam na formatura em Harvard.</figcaption>
+    </figure>
+    
+    <!-- 
+        Citações 
+        Link da Documentação: 
+            https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/q
+            https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote
+    -->
+    <p>
+        <q cite="https://pt.wikipedia.org/wiki/S%C3%B3crates">Só sei que nada sei. - Sócrates</q>
+    </p>
+
+    <hr>
+
+    <blockquote cite="https://pt.wikipedia.org/wiki/S%C3%B3crates">
+        <p>Só sei que nada sei. - Sócrates</p>
+    </blockquote>
+
+    <!-- 
+        Lista Ordenada
+        Link da Documentação: https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/ol 
+     -->
+     <!-- Lista Ordenada -->
+     <ol>
+         <!-- Itens da lista -->
+         <li>Flamengo</li>
+         <li>Palmeiras
+             <ol type="a">
+                 <li>Porco</li>
+             </ol>
+         </li>
+         <li>Grêmio</li>
+     </ol>
+    <!-- 
+        Lista Desordenada
+        Link da Documentação: https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/ul
+    -->
+    <ul>
+        <!-- Itens da lista -->
+        <li>Flamengo</li>
+        <li>Palmeiras</li>
+        <li>Grêmio</li>
+    </ul>
+    <!--
+        Atalho: 
+            ul>li*10
+    -->
+    
+</body>
+</html>

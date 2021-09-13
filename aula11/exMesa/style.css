@@ -1,0 +1,46 @@
+body {
+    height: 1000px;
+    width: 100%;
+}
+
+div {
+    border: 0.1px solid;
+    display: inline-block;
+    text-align: center;
+}
+p {
+    padding-top: 20px;
+}
+
+.box {
+    width: 160px;
+    height: 160px;
+}
+
+.box-interna {
+    width: 90px;
+    height: 90px;
+    margin: 30px;
+}
+
+#caixa-1 {
+    position: absolute;
+    left: 10px;
+}
+
+#caixa-2 {
+    position: absolute;
+    right: 10px;
+}
+
+#linha-2 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: none;
+}
+
+#caixa-3 {
+    position: relative;
+    margin: auto;
+}

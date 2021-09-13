@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <!-- Participantes:
+        Andressa Malta
+        Bruno Miranda
+        Dafne Oliveira
+        Edilson Silva
+        Jaiana Santos
+    -->
+</head>
+<body style="background-image: url(https://previews.123rf.com/images/madpixblue/madpixblue1403/madpixblue140300063/26660478-abstract-concept-feedback-background-illustration.jpg);">
+    <div class="logo">
+        <img src="https://certifiedtechdeveloper.com.br/wp-content/uploads/2021/01/CertifiedTechDeveloper_Vert.png" alt="Logotipo do curso Certified Tech Developer da Digital House" height="75px">
+    </div>
+    <form class="formulario" method="post" action="/"> 
+        <div clas="inputs">
+            <label for="username">Nome do Usuário:</label>
+            <input name="username" id="username"type="text" placeholder="Digite o nome de usuário" required>
+        </div>
+        <div class="blocos-texto">
+            <textarea name="feedback" id="feedback" placeholder="Digite aqui seu feedback" cols="20" rows="10"></textarea> 
+        </div>
+        <div class="selects">
+            <label for="seletor-unico">Selecione uma opção</label>
+            <select name="seletor" id="seletor-unico">
+                <option disabled selected>Selecione</option>
+                <option value="opcao1">Opção 01</option>
+                <option value="opcao2">Opção 02</option>
+                <option value="opcao3">Opção 03</option>
+                <option value="opcao4">Opção 04</option>
+                <option value="opcao5">Opção 05</option>
+            </select>
+        </div>  
+        <div class="buttoms">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo{
+    background-color: #eee;
+    border: 2px solid black;
+
+}
+
+.titulo {
+    color: #9153bb;
+}
+
+.linha{
+    padding: 5px;
+}
+
+.formulario {
+    display: block;
+}
+
+.botao {
+    display: inline;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.paragrafo::first-letter{
+    font-size: xx-large;
+    background-color: #9153bb;
+    color: #ffffff;
+    padding: 0px 9px;
+    border-radius: 50%;
+}
+
+.texto-input:focus {
+    background-color:#d9bfeb;
+}   
+
+.checkbox:enabled + .texto-checkbox{
+    font-weight: bolder;
+}
+
+.checkbox:disabled + .texto-checkbox{
+    color: #c5c5c5;
+}
+
+.checkbox:checked + .texto-checkbox {
+    background-color: #9153bb5d;
+    padding: 3px;
+    border-radius: 7px;
+}
+
+.linha:nth-child(7) {
+    background-color: #a7a7a7;
+}
+
+.botao:hover{
+    background-color: #ffffff;
+    color: #9153bb;
+    font-weight: bold;
+}
+
+:is(p,h1) {
+    text-transform: uppercase
+}

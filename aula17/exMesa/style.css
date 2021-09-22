@@ -1,0 +1,49 @@
+@keyframes surgir {
+    0% {opacity: 0%; }
+    50% {opacity: 60%;}
+    100% {opacity: 100%; transform:translate(90%)}
+}
+
+
+/* ANIMAÇÃO 1 */
+.animar {
+    animation: surgir 5s infinite;
+}
+
+
+.bolinha{
+    height: 100px;
+    width: 100px;
+    background-color: #d10000;
+    border-radius: 50%;
+}   
+
+
+/* ANIMAÇÃO 2 */
+
+
+.icone{
+    height: 100px;
+    width: 100px;
+}
+
+.icone:hover{
+    transform: scale(1.5) skew(15deg);
+}
+
+/* ANIMAÇÃO 2 */
+
+
+button{
+    width: 100px;
+    height: 100px;
+    background-color: #afeeee;
+    margin-top: 20px;
+}
+    
+.botao:hover{
+    background-color: #ff9dad;
+    transition-duration: 2s;
+}
+
+

@@ -15,5 +15,4 @@
 6. Design Adaptativo e Layout (Aulas 19-23)
 - Flexbox, Grid e Design Adaptativo
 7. Módulo de Trabalho (Aulas 25-26)
-- Frameworks
-- Pré-processador
+- Frameworks, Pré-processador

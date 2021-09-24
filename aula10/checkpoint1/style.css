@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Inconsolata:wght@300;400;700&display=swap');
+
+body {
+    background-image: url(https://entremares.tur.br/wp-content/uploads/2020/04/santos-1.jpeg);
+    background-size: cover;
+    font-family: 'Inconsolata', monospace;
+}
+
+header {
+    padding: 15px 0;
+    background-color: #c3f8ff7a;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 54px;
+    font-weight: 700;
+    color: #18063a;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.resumo {
+    margin: 50px;
+    right: 50px;
+}
+
+.linha {
+    margin: 50px 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    background-color: #c3f8ff91;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.links {
+    position: relative;
+    display: flex;
+    margin: 0 40%;
+    justify-content: space-around;
+}
+.icons {
+    width: 50px;
+    height: 50px;
+    margin: 0 50px;
+}
+
+.instagram {
+    
+}
+.youtube
+
+/* Insira um video do youtube que fala da sua cidade. Pode ser algum festival ou comemoração. Dê uma altura e largura de 1280x720 ao seu vídeo.
+Abaixo do vídeo escreva o título: “Curiosidades” e logo abaixo faça uma pequena lista com algumas curiosidades da sua cidade.
+Utilize algum site de ícones para conseguir uma imagem do instagram e outra do youtube. Nesses ícones, faça o link com os canais oficiais da sua cidade, se não houver, coloque links do seu gosto.
+No formulário a seguir, insira seu nome e o link do repositório remoto: https://forms.gle/wLGtg9NHfE98FbEa9
+*/

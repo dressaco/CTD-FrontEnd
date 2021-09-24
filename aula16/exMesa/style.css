@@ -66,3 +66,11 @@ body {
 :is(p,h1) {
     text-transform: uppercase
 }
+
+::marker {
+    color: crimson;
+}
+
+div:last-of-type {
+    background-color: rgba(220, 20, 60, 0.11);
+}

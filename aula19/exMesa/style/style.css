@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Condensed&family=Stick+No+Bills&display=swap');
+
+body {
+    background-color: #1c110a;
+}
+
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card-banner img {
+    height: 400px;
+    width: 280px;
+    object-fit: cover;
+}
+
+.title {
+    text-align: center;
+    color: #e54f6d;
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.card-name {
+    color: #f8c630;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card-views {
+    color: #724e91;
+    font-family: 'Stick No Bills', sans-serif;
+}

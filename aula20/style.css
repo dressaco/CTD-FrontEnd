@@ -1,0 +1,33 @@
+body header {
+    background-color: #ffad69;
+    grid-area: header;
+    height: 50px;
+}
+
+body aside {
+    background-color: #f5e663;
+    grid-area: aside;
+    height: 530px;
+}
+
+body main {
+    background-color: #47a8bd;
+    grid-area: main;
+    height: 530px;
+}
+
+body footer {
+    background-color: #476bd7;
+    grid-area: footer;
+    height: 90px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    /*fr é uma unidade que serve para dividir espaço total (como fraçoes)*/
+    grid-template-areas: 
+    'header header'
+    'aside main'
+    'footer footer';
+}

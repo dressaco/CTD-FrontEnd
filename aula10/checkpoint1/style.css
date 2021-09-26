@@ -4,6 +4,7 @@ body {
     background-image: url(https://entremares.tur.br/wp-content/uploads/2020/04/santos-1.jpeg);
     background-size: cover;
     font-family: 'Inconsolata', monospace;
+    margin: 0;
 }
 
 header {
@@ -19,19 +20,20 @@ header {
 .video {
     display: flex;
     justify-content: center;
-    margin: 50px 0;
+    margin: 30px;
 }
 
-.resumo {
-    margin: 50px;
-    right: 50px;
+.video iframe {
+    width: 1280px;
+    height: 720px;
+    border: 0;
 }
 
-.linha {
-    margin: 50px 30px;
-    position: relative;
+.content-section {
+    margin: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
 }
 
 .info {
@@ -44,22 +46,53 @@ header {
 .links {
     position: relative;
     display: flex;
-    margin: 0 40%;
-    justify-content: space-around;
+    gap: 50px;
+    justify-content: center;
 }
 .icons {
     width: 50px;
     height: 50px;
-    margin: 0 50px;
 }
 
-.instagram {
+/* Responsividade */
+
+@media (max-width: 768px) {
+    .info {
+        width: 500px;
+    }
     
+    .content-section {
+        flex-wrap: wrap;
+    }
+    .video iframe {
+        width: 500px;
+        height: 280px;
+    }
 }
-.youtube
 
-/* Insira um video do youtube que fala da sua cidade. Pode ser algum festival ou comemoração. Dê uma altura e largura de 1280x720 ao seu vídeo.
-Abaixo do vídeo escreva o título: “Curiosidades” e logo abaixo faça uma pequena lista com algumas curiosidades da sua cidade.
-Utilize algum site de ícones para conseguir uma imagem do instagram e outra do youtube. Nesses ícones, faça o link com os canais oficiais da sua cidade, se não houver, coloque links do seu gosto.
-No formulário a seguir, insira seu nome e o link do repositório remoto: https://forms.gle/wLGtg9NHfE98FbEa9
-*/
+@media (max-width: 340px) {
+    .info {
+        font-size: 12px;
+        padding: 5px 10px;
+        text-align: center;
+    }
+    ul {
+        list-style-position: inside;
+        margin: 10px;
+        padding: 0;
+    }
+    .content-section {
+        gap:15px;
+    }
+    .icons {
+        width: 30px;
+        height: 30px;
+    }
+    .links {
+        gap: 15px;
+    }
+    .video iframe {
+        width: 200px;
+        height: 120px;
+    }
+}

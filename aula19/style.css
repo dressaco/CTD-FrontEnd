@@ -1,0 +1,16 @@
+.main-menu {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    /*
+    flex-direction: row; -> alinha varios itens por linha
+    flex-direction: column; -> alinha um item por linha
+    flex-wrap: wrap; -> se não existir espaço suficiente na linha, os elementos filhos podem descer para a linha de baixo
+    justify-content: center; -> alinha os itens para o centro horizontal do elemento
+    justify-content:space-between; -> alinha os itens incluindo um espaço entre eles para ocupar todo o espaço disponivel
+    align-items: center; -> alinha os itens para o centro vertical do elemento pai
+    gap: 24px; -> cria um espaçamento entre os elementos filhos do elemento pai
+    */
+    
+
+}

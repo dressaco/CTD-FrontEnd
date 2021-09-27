@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: rgb(90, 126, 57);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/*MENU SUSPENSO*/
+.menu-suspenso {
+    float: left;
+    position: fixed;
+    background-color: #f4a460;
+    border-radius: 0.75rem;
+    right: 2rem;
+    top: 2rem;
+    width: 5rem;
+    text-align: center;
+    z-index: 10;
+}
+
+.menu-suspenso a {
+    color: #30405e;
+    background-color: #f4a560b9;
+    padding: 5px 10px;
+    display: block;
+}
+
+.menu-suspenso a:hover {
+    color: #ffd1a9;
+    font-weight: 700;
+}
+
+.opcoes-suspensas {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    display: none;
+}
+
+.menu-suspenso:hover .opcoes-suspensas,
+.menu-suspenso.over .opcoes-suspensas{
+    display: block;
+}
+
+
+/*FIM MENU SUSPENSO*/
+
+.banner {
+    width: 100vw;
+}
+
+.title, .sub-title {
+    text-align: center;
+}
+
+.title {
+    position: absolute;
+    right: 25%;
+    left: 25%;
+    font-size: 2rem;
+    background-color: #30405e8c;
+    color: #ffd1a9;
+    border-radius: 3rem;
+    margin: 2rem;
+}
+
+.sub-title {
+    color: #f4a560;
+    font-size: 1.5rem;
+}
+
+.topo-pagina p {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #30405e;
+    background-color:  #ffd1a973;
+    padding: 1rem 30%;
+}
+
+.cards {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem;
+    justify-content: center;
+    position: relative;
+}
+
+.card {
+    width: 35%;
+}
+
+.card-title {
+    position: absolute;
+    color: #000;
+    text-align: center;
+    top: 40%;
+    margin-left: 10%;
+    line-height: 2rem;
+    z-index: 2;
+    font-weight: 900;
+    background-color: #ffffff79;
+    border-radius: 1rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 1.75rem;
+}
+
+.card-img img {
+    width: 100%;
+    filter: brightness(60%);
+    z-index: 1;
+}
+
+.card:hover {
+    transition-duration: 1.5s;
+    filter: brightness(150%);
+    transform: scale(110%);
+}
+
+.card:hover > .card-title {
+    transition-duration: 2s;
+    color: #fff;
+    transform: scale(75%) translate(-50%,-350%);
+    background-color: #00000000;
+    font-weight: 400;
+}
+
+.card-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: right;
+}
+
+.button {
+    background-color: #ffffff00;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none
+}
+
+.button > .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    filter: invert(79%) sepia(34%) saturate(467%) hue-rotate(329deg) brightness(105%) contrast(102%);
+}
+
+
+.fixo {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+.icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.rodape p {
+    text-align: center;
+    background-color: #30405e;
+    padding: 1rem;
+    color: #ffd1a9;
+    margin-bottom: 0;
+    font-weight: 100;
+}
